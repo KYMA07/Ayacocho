@@ -6,7 +6,7 @@
   <title>Karina Yeisha M. Ayacocho | Portfolio</title>
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/responsive.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="sidebar">
@@ -61,10 +61,10 @@
             <div class="about-content">
                 <div class="about-intro">
                     <p>
-                       Hi! I'm Karina an Aspiring web and app developer with a passion for creating dynamic 
-                       and user-friendly web and mobile applications. My favorite work lies in making and designing web pages.
-                       I'm a second year IT student of National Univarsity studying to be a future web developer.
-                       In my spare time, I like to read and crochet and occasionally watch anime.
+                        Hi, I'm Karina!  a 4th year Information Technology student at National University, specializing in
+                        Mobile and Web Applications. I enjoy building dynamic, user-friendly web and mobile apps, with a particular
+                        interest in front-end design and page architecture. Outside of coding, I like to read, crochet, and
+                        occasionally watch anime.
                     </p>
                 </div>
                 
@@ -101,45 +101,63 @@
                     <h3 class="sub">Skills</h3>
 
                     <div class="skills-section">
-
                         <div class="skill-group">
-                            <h3><img src="resources/Icons/skills/java.png" alt="Java"> Programming Languages</h3>
-                            <div class="skill-item">
-                                <span>Java</span>
-                                <div class="skill-bar"><div class="fill" style="width: 85%"></div></div>
-                            </div>
+                            <h3><img src="resources/Icons/skills/java.png" alt="Java"> Languages</h3>
+                            <ul class="skill-tags">
+                                <li>Java</li><li>Python</li><li>JavaScript</li><li>Dart</li>
+                            </ul>
                         </div>
 
                         <div class="skill-group">
                             <h3><img src="resources/Icons/skills/coding.png" alt="Web"> Web Development</h3>
-                            <div class="skill-item"><span>HTML</span><div class="skill-bar"><div class="fill" style="width: 90%"></div></div></div>
-                            <div class="skill-item"><span>CSS</span><div class="skill-bar"><div class="fill" style="width: 70%"></div></div></div>
-                            <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="fill" style="width: 50%"></div></div></div>
+                            <ul class="skill-tags">
+                                <li class="skill-strong">HTML</li><li class="skill-strong">CSS</li><li class="skill-strong">React</li><li>Spring Boot</li>
+                            </ul>
                         </div>
 
                         <div class="skill-group">
-                            <h3><img src="resources/Icons/skills/mobile-development.png" alt="App Dev"> App Development</h3>
-                            <div class="skill-item">
-                                <span>Android Studio</span>
-                                <div class="skill-bar"><div class="fill" style="width: 45%"></div></div>
-                            </div>
+                            <h3><img src="resources/Icons/skills/mobile-development.png" alt="App Dev"> Mobile Development</h3>
+                            <ul class="skill-tags">
+                                <li>React Native</li><li>Flutter</li><li>Android Studio</li>
+                            </ul>
                         </div>
 
                         <div class="skill-group">
-                            <h3><img src="resources/Icons/skills/productivity.png" alt="Web"> Design and Productivity Tools</h3>
-                            <div class="skill-item"><span>Excel</span><div class="skill-bar"><div class="fill" style="width: 65%"></div></div></div>
-                            <div class="skill-item"><span>Canva</span><div class="skill-bar"><div class="fill" style="width: 80%"></div></div></div>
-                            <div class="skill-item"><span>Capcut</span><div class="skill-bar"><div class="fill" style="width: 60%"></div></div></div>
+                            <h3><img src="resources/Icons/skills/database.png" alt="Databases"> Databases</h3>
+                            <ul class="skill-tags">
+                                <li>MySQL</li><li>MongoDB</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3><img src="resources/Icons/skills/productivity.png" alt="Tools"> Design and Productivity Tools</h3>
+                            <ul class="skill-tags">
+                                <li>Excel</li><li>Canva</li><li>Capcut</li>
+                            </ul>
                         </div>
                     </div>
-
-            </div></div>
+                </div></div>
 
         </section>
         
          <section id="projects" class="section">
           <h2>Projects</h2>
           <div class="projects-container">
+            <div class="project-card"
+                data-title="JCE Bridal Boutique"
+                data-description="An E-commerce Project with an AR feature that scans the body.">
+                <div class="project-image">
+                    <img src="resources/projects/JCE.png" alt="JCE Bridal Boutique screenshot">
+                </div>
+                <div class="card-content">
+                    <h3>JCE Bridal Boutique</h3>
+                    <p>An e-commerce bridal gown platform with an AR virtual fitting room that scans body measurements for size-matching.</p>
+                    <ul class="tech-list">
+                        <li>Next.js</li><li>React Native</li><li>MySQL</li>
+                    </ul>
+                    <a href="https://plankton-app-bjwn2.ondigitalocean.app/" target="_blank" class="project-link">Visit Site →</a>
+                </div>
+            </div>
             <div class="project-card"
                 data-title="Purrsome Rescue"
                 data-description="A Netbeans GUI for monitoring pet adoptions and adopting rescues."
@@ -188,6 +206,7 @@
                     
                 </div>
             </div>
+
              
           </div>
         </section>
